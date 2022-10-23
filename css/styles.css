@@ -1,0 +1,121 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix:after{
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.wrap{
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+body {
+  min-width: 320px;
+  font-family: 'Calibry', sans-serif;
+}
+
+.top_line {
+  background-color: #1c1c1c;
+}
+
+.logo {
+  float: left;
+}
+
+
+.search_form{
+  float: right;
+  margin-top: 50px;
+}
+
+.search_form input[type="search"]{
+  background-color: #666;
+  border:1px solid #4c4c4c;
+}
+
+
+ .slider{
+   background-color: #000;
+ }
+
+ .slider img {
+   width: 100%;
+   display: block;
+ }
+
+.slider .slider_text {
+  font-family: "ArialRegular";
+  color: #ccc;
+  background-color: rgba(0,0,0,0.5);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+}
+
+.slider .slider_text p{
+  font-size: 12px;
+  width: 100%;
+  max-width: 500px;
+  padding: 16px;
+}
+
+.menu ul li{
+  display: inline-block;
+}
+
+.menu ul {
+  background-color: #000;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.menu a {
+  font-family: "ArialBold";
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 25px;
+  font-size: 14px;
+  text-align: center;
+  font-weight:bold;
+  border-right: 2px solid #272727;
+}
+
+.menu a:hover {
+  background-color: #5d0707;
+}
+
+.content {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.content h1 {
+  color: #838383;
+  font-family: "ArialRegular";
+  padding: 15px 15px;
+}
+
+.content h1 span {
+  color: #000;
+}
+
+.content p{
+  font-family: "ArialRegular";   
+}
+
+.content p a {
+  color: #428cd7;
+}
